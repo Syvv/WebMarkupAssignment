@@ -1,42 +1,61 @@
-COMPANY NAME
-Home
-Product
-Contact
-More information
-<form action="nowhere.php" method="post">
-	<fieldset>
-		<label >Select topic</label>
-		<select>
-			<option value="general">General inquiries</option>
-			<option value="press">Press relations</option>
-			<option value="recruitement">Recruitement</option>
-		</select>
-	</fieldset>
-	<fieldset class="contactFormFieldset">
-		<input
-				type="text"
-				name="contactFormName"
-				placeholder="Your name.."
-		/>
-	</fieldset>
-	<fieldset class="contactFormFieldset">
-		<input
-				type="email"
-				name="email"
-				placeholder="Your email.."
-		/>
-	</fieldset>
-	<fieldset>
-		<textarea
-				rows="7"
-				cols="40"
-				name="message"
-				placeholder="Write something.."
-		></textarea>
-	</fieldset>
-	<input
-			type="submit"
-			value="Submit"
-	/>
-</form>
-2018 - Student name - Inholland 
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Contact</title>
+		<link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+	</head>
+	<body>
+		<section id="contact">
+				<header><h1>COMPANY NAME</h1></header>
+				<nav>
+					<a href="index.html">Home</a>
+					<a href="contact.html">Product</a>
+					<a href="">Blog</a>
+				</nav>
+				<aside>Contact</aside>
+
+				<p id="moreinfo">More information</p>
+
+				<form action="nowhere.php" method="post">
+					<fieldset class="contactFormFieldset">
+						<label >Select topic</label>
+						<select>
+							<option value="general">General inquiries</option>
+							<option value="press">Press relations</option>
+							<option value="recruitement">Recruitement</option>
+						</select>
+					</fieldset>
+					<fieldset class="contactFormFieldset">
+						<input
+								type="text"
+								name="contactFormName"
+								placeholder="Your name.."
+						/>
+					</fieldset>
+					<fieldset class="contactFormFieldset">
+						<input
+								type="email"
+								name="email"
+								placeholder="Your email.."
+						/>
+					</fieldset>
+					<fieldset>
+						<textarea
+								rows="7"
+								cols="40"
+								name="message"
+								placeholder="Write something.."
+						></textarea>
+					</fieldset>
+					<input class="submitbutton"
+							type="submit"
+							value="Submit"
+					/>
+				</form>
+				<footer>
+					&copy; 2019 - Matthijs Hartskeerl - Inholland   
+				</footer>
+		</section>
+	</body>
+</html>

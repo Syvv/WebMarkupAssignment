@@ -1,8 +1,13 @@
+html{
+    margin:0%;
+    padding:0%;
+}
+
 body{
     background-image: url(../img/background.jpeg);
     background-size: fill;
     background-repeat: no-repeat;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     margin:0%;
 }
 
@@ -88,6 +93,7 @@ aside {
     height : 8%;
     background-color : #2699FB;
     font-size : 4vw;
+    margin-top : 0.2%;
 }
 #product footer{
     margin-top: 2%;
@@ -101,5 +107,100 @@ aside {
 
 #product nav{
     height : 3%;
+    font-size: 1.5vw;
+}
+
+#contact {
+    height : 40vw;
+    width : 60%;
+    margin-left: 20%;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #F5F5F5;
+}
+
+form{
+    height: 57%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5vw;
+}
+
+#contact aside{
+    height:12%;
+}
+
+fieldset.contactFormFieldset{
+    height:7.5%;
+}
+
+#contact header{
+    height : 10%;
+    font-size: 2vw;
+}
+
+#contact nav{
+    height : 4%;
+    font-size: 1.2vw;
+}
+
+#moreinfo{
+    font-size : 1.5vw;
+    color:#AAAAAA;
+    text-align: Left;
+    margin-Left:2%;
+}
+
+fieldset{
+    width:80%;
+    margin-left:10%;
+    margin-top:2.5%;
+    height: 20%;
+    background-color: #FFFFFF;
+    color:#AAAAAA;
+    padding:0%;
+    border-width:1px;
+}
+
+fieldset > input{
+    width:98%;
+    height: 90%;
+    border-width:0px;
+    font-size: 1.6vw;
+}
+
+fieldset > textarea{
+    width:98%;
+    height: 90%;   
+    border-width:0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5vw;
+}
+
+fieldset > select{
+    float:right;
+    margin:0.5%;
+    width:60%;
+    height:65%
+}
+
+fieldset > label{
+    float:left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5vw;
+    margin-Left:1%;
+    margin-top:0%;
+}
+
+.submitbutton{
+    height : 10%;
+    background-color : #2699FB;
+    color:#FFFFFF;
+    font-size : 1.75vw;
+    width: 80%;
+    margin-top:2.5%;
+}
+
+#contact footer{
+    height:5.1%;
     font-size: 1.5vw;
 }
