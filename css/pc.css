@@ -23,19 +23,17 @@ header{
     margin:0%;
 }
 
-
-
 nav{
     height : 2%;
 }
 
 footer{
-    font-size: 1.5vw;
+    font: 1.5vw Arial;
 }
 
 .images img{
     width:31%;
-    height:23%;
+    height:21%;
     margin-top: 1.7%;
     margin-left: 1.7%;
 }
@@ -48,7 +46,6 @@ footer{
 
 .images{
     height : 77%;
-    margin-bottom: 1%;
 }
 
 aside {
@@ -59,13 +56,12 @@ aside#small{
     display: none;
 }
 #product footer{
-    margin-top: 2%;
     height: 3%;
 }
 
 #product header{
     height : 10%;
-    font-size: 2vw;
+    font: 2vw Berlin Sans FB;
 }
 
 #product nav{
@@ -81,7 +77,7 @@ aside#small{
 
 form{
     height: 57%;
-    font-size: 1.5vw;
+    font: 1.5vw Arial;
 }
 
 #contact aside{
@@ -94,7 +90,7 @@ fieldset.contactFormFieldset{
 
 #contact header{
     height : 10%;
-    font-size: 2vw;
+    font: 2vw Berlin Sans FB;
 }
 
 #contact nav{
@@ -102,7 +98,7 @@ fieldset.contactFormFieldset{
 }
 
 fieldset > textarea{
-    font-size: 1.5vw;
+    font: 1.5vw Arial;
 }
 
 fieldset > select{
@@ -115,11 +111,11 @@ fieldset > select{
 fieldset > label{
     float:left;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 1.5vw;
+    font: 1.5vw Arial;
     margin-Left:1%;
     margin-top:0%;
 }
 
 .submitbutton{
-    font-size : 1.75vw;
+    font: 1.75vw Arial;
 }

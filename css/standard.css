@@ -11,7 +11,7 @@ h1{
 
 body{
     background-image: url(../img/background.jpeg);
-    background-size: fill;
+    background-size: cover;
     background-repeat: no-repeat;
     margin:0%;
 }
@@ -26,7 +26,7 @@ header{
     background-size: cover;
     text-align: center;
     vertical-align: middle;
-    font-size: 3vw;   
+    font: 3vw Berlin Sans FB;
     margin-top:0%;
 }   
 
@@ -36,7 +36,7 @@ header{
 }
 
 #index article h2{
-    font-size : 4.5vw;
+    font: 4.5vw Arial;;
     margin : 0%;
     align-content: center;
     background-color: #2699FB;
@@ -73,7 +73,7 @@ footer{
 
 aside{
     background-color : #2699FB;
-    font-size : 4vw;
+    font: 4vw Arial;
     margin-top : 0.2%;
 }
 
@@ -84,11 +84,11 @@ aside{
 }
 
 #contact nav{
-    font-size: 1.2vw;
+    font: 1.2vw Arial;
 }
 
 #moreinfo{
-    font-size : 1.5vw;
+    font: 1.5vw Arial;
     color:#AAAAAA;
     text-align: Left;
     margin-Left:2%;
@@ -109,7 +109,7 @@ fieldset > input{
     width: 98%;
     height: 90%;
     border-width:0px;
-    font-size: 1.6vw;
+    font: 1.6vw Arial;
 }
 
 fieldset > textarea{
@@ -129,7 +129,7 @@ fieldset > textarea{
 
 #contact footer{
     height:5.1%;
-    font-size: 1.5vw;
+    font: 1.5vw Arial;
 }
 
 #contact header {
