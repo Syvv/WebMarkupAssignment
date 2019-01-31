@@ -136,16 +136,16 @@ aside {
 }
 
 #contact {
-    height : 45vw;
-    width : 60%;
-    margin-left: 20%;
+    height : 60vw;
+    width : 100%;
+    margin-left: 0%;
     text-align: center;
     color: #FFFFFF;
     background-color: #F5F5F5;
 }
 
 form{
-    height: 57%;
+    height: 75%;
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.5vw;
 }
@@ -156,6 +156,10 @@ form{
 
 fieldset.contactFormFieldset{
     height:7.5%;
+}
+
+fieldset.contactFormFieldset#selector{
+    height:20%;
 }
 
 #contact header{
@@ -173,6 +177,7 @@ fieldset.contactFormFieldset{
     color:#AAAAAA;
     text-align: Left;
     margin-Left:2%;
+    display: none;
 }
 
 fieldset{
@@ -187,7 +192,7 @@ fieldset{
 }
 
 fieldset > input{
-    width:98%;
+    width: 98%;
     height: 90%;
     border-width:0px;
     font-size: 1.6vw;
@@ -202,10 +207,10 @@ fieldset > textarea{
 }
 
 fieldset > select{
-    float:right;
-    margin:0.5%;
-    width:60%;
-    height:65%
+    margin: 1%;
+    width: 98%;
+    height:45%;
+    object-position: center;
 }
 
 fieldset > label{
@@ -214,6 +219,8 @@ fieldset > label{
     font-size: 1.5vw;
     margin-Left:1%;
     margin-top:0%;
+    width:90%;
+    text-align: left;
 }
 
 .submitbutton{
