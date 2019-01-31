@@ -35,22 +35,24 @@ header{
 }   
 
 #index > article{
-    height  : 23%;
-    background-color: #2699FB;
+    height  : 90%;
+    background-color: #FFFFFF;
     text-align: center;
 }
 
 #index article h2{
     font-size : 4.5vw;
     margin : 0%;
-    height : 30%;
+    height : 7.5%;
     align-content: center;
+    background-color: #2699FB;
 }
 
 #index article img {
     width   : 100%;
-    height  : 70%;
+    height  : 17.25%;
     object-fit: fill;
+    margin:0%;
 }
 
 nav a{
@@ -69,7 +71,7 @@ nav{
 
 footer{
     background-color: #000000;
-    height : 1%;
+    height : 2%;
     font-size: 1.5vw;
 }
 

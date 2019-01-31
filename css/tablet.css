@@ -17,9 +17,8 @@ body{
 }
 
 #index{
-    height : 130vw;
-    width : 60%;
-    margin-left: 20%;
+    height : 90vw;
+    width : 100%;
     text-align: center;
     color: #FFFFFF;
 }
@@ -27,7 +26,7 @@ body{
 header{
     background-image: url(../img/companylogoBG.jpg);
     background-size: cover;
-    height : 6%;
+    height : 10%;
     text-align: center;
     vertical-align: middle;
     font-size: 3vw;   
@@ -35,22 +34,39 @@ header{
 }   
 
 #index > article{
-    height  : 23%;
-    background-color: #2699FB;
+    height  : 85%;
+    background-color: #FFFFFF;
     text-align: center;
 }
 
 #index article h2{
     font-size : 4.5vw;
     margin : 0%;
-    height : 30%;
+    height : 12%;
     align-content: center;
+    background-color: #2699FB;
 }
 
 #index article img {
-    width   : 100%;
-    height  : 70%;
+    margin-left: 0.5%;
+    margin-top: 0.5%;
+    width   : 49%;
+    height  : 37.5%;
     object-fit: fill;
+}
+
+.irrText{
+    display: none;
+}
+
+#pawn{
+    display: none;
+}
+
+#index article img#controller {
+    width   : 100%;
+    margin-left:0%;
+    margin-top: 0%;
 }
 
 nav a{
@@ -63,14 +79,14 @@ nav a{
 
 nav{
     background-color: #707070;
-    height : 2%;
+    height : 3%;
     font-size: 2vw;
 }
 
 footer{
     background-color: #000000;
-    height : 1%;
-    font-size:2vw;
+    height : 2%;
+    font-size:1.5vw;
 }
 
 .images img{
@@ -95,8 +111,6 @@ footer{
     height : 84%;
     margin-bottom: 1%;
 }
-
-
 
 aside {
     height : 0%;
