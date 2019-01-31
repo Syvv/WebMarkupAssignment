@@ -70,19 +70,20 @@ nav{
 footer{
     background-color: #000000;
     height : 1%;
+    font-size:2vw;
 }
 
 .images img{
-    width:31%;
-    height:23%;
-    margin-top: 1.7%;
-    margin-left: 1.7%;
+    width:45.5%;
+    height:15%;
+    margin-top: 3%;
+    margin-left: 3%;
     float:left;
     object-fit: fill;
 }
 
 #product{
-    height : 60vw;
+    height : 125vw;
     width : 60%;
     margin-left: 20%;
     text-align: center;
@@ -91,15 +92,16 @@ footer{
 }
 
 .images{
-    height : 77%;
+    height : 84%;
     margin-bottom: 1%;
 }
 
 aside {
-    height : 8%;
+    height : 0%;
     background-color : #2699FB;
     font-size : 4vw;
     margin-top : 0.2%;
+    visibility : hidden;
 }
 #product footer{
     margin-top: 2%;
@@ -113,7 +115,7 @@ aside {
 
 #product nav{
     height : 3%;
-    font-size: 1.5vw;
+    font-size: 2.5vw;
 }
 
 #contact {
