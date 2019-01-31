@@ -131,35 +131,41 @@ aside#large{
 }
 
 #contact {
-    height : 45vw;
-    width : 60%;
-    margin-left: 20%;
+    height : 140vw;
+    width : 100%;
+    margin-left: 0%;
     text-align: center;
     color: #FFFFFF;
     background-color: #F5F5F5;
 }
 
 form{
-    height: 57%;
+    height: 65%;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 1.5vw;
+    font-size: 2.5vw;
 }
 
 #contact aside{
-    height:12%;
+    height:7%;
+    font-size: 8vw;
 }
 
 fieldset.contactFormFieldset{
-    height:7.5%;
+    height:12.25%;
+    font-size: 3vw;
+}
+
+fieldset.contactFormFieldset#selector{
+    height:20%;
 }
 
 #contact header{
     height : 10%;
-    font-size: 2vw;
+    font-size: 5vw;
 }
 
 #contact nav{
-    height : 4%;
+    height : 10%;
     font-size: 1.2vw;
 }
 
@@ -168,6 +174,7 @@ fieldset.contactFormFieldset{
     color:#AAAAAA;
     text-align: Left;
     margin-Left:2%;
+    display:none;
 }
 
 fieldset{
@@ -193,36 +200,37 @@ fieldset > textarea{
     height: 90%;   
     border-width:0px;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 1.5vw;
+    font-size: 2.5vw;
 }
-
 fieldset > select{
-    float:right;
-    margin:0.5%;
-    width:60%;
-    height:65%
+    margin: 1%;
+    width: 98%;
+    height:45%;
+    object-position: center;
 }
 
 fieldset > label{
     float:left;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 1.5vw;
+    font-size: 2.5vw;
     margin-Left:1%;
     margin-top:0%;
+    width:90%;
+    text-align: left;
 }
 
 .submitbutton{
     height : 10%;
     background-color : #2699FB;
     color:#FFFFFF;
-    font-size : 1.75vw;
+    font-size : 3.75vw;
     width: 80%;
     margin-top:2.5%;
 }
 
 #contact footer{
     height:5.1%;
-    font-size: 1.5vw;
+    font-size: 3.5vw;
 }
 
 #contact header {
