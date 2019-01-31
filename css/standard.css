@@ -1,0 +1,137 @@
+html{
+    margin:0%;
+    padding:0%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    margin:0%;
+
+}
+
+body{
+    background-image: url(../img/background.jpeg);
+    background-size: fill;
+    background-repeat: no-repeat;
+    margin:0%;
+}
+
+#index{
+    text-align: center;
+    color: #FFFFFF;
+}
+
+header{
+    background-image: url(../img/companylogoBG.jpg);
+    background-size: cover;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 3vw;   
+    margin-top:0%;
+}   
+
+#index > article{
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+#index article h2{
+    font-size : 4.5vw;
+    margin : 0%;
+    align-content: center;
+    background-color: #2699FB;
+}
+
+nav a{
+    color: #FFFFFF;
+    text-decoration: none;
+    object-position: center;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+nav{
+    background-color: #707070;
+    font-size: 2vw;
+}
+
+footer{
+    background-color: #000000;
+    height : 2%;
+}
+
+.images img{
+    float:left;
+    object-fit: fill;
+}
+
+#product{
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #FFFFFF;
+}
+
+aside{
+    background-color : #2699FB;
+    font-size : 4vw;
+    margin-top : 0.2%;
+}
+
+#contact{
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #F5F5F5;
+}
+
+#contact nav{
+    font-size: 1.2vw;
+}
+
+#moreinfo{
+    font-size : 1.5vw;
+    color:#AAAAAA;
+    text-align: Left;
+    margin-Left:2%;
+}
+
+fieldset{
+    width:80%;
+    margin-left:10%;
+    margin-top:2.5%;
+    height: 20%;
+    background-color: #FFFFFF;
+    color:#AAAAAA;
+    padding:0%;
+    border-width:1px;
+}
+
+fieldset > input{
+    width: 98%;
+    height: 90%;
+    border-width:0px;
+    font-size: 1.6vw;
+}
+
+fieldset > textarea{
+    width:98%;
+    height: 90%;   
+    border-width:0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.submitbutton{
+    height : 10%;
+    background-color : #2699FB;
+    color:#FFFFFF;
+    width: 80%;
+    margin-top:2.5%;
+}
+
+#contact footer{
+    height:5.1%;
+    font-size: 1.5vw;
+}
+
+#contact header {
+    height:12%;
+}

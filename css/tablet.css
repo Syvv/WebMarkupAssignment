@@ -1,56 +1,24 @@
-html{
-    margin:0%;
-    padding:0%;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-h1{
-    margin:0%;
-
-}
-
-body{
-    background-image: url(../img/background.jpeg);
-    background-size: fill;
-    background-repeat: no-repeat;
-    margin:0%;
-}
-
 #index{
     height : 90vw;
     width : 100%;
-    text-align: center;
-    color: #FFFFFF;
 }
 
 header{
-    background-image: url(../img/companylogoBG.jpg);
-    background-size: cover;
     height : 10%;
-    text-align: center;
-    vertical-align: middle;
-    font-size: 3vw;   
-    margin-top:0%;
 }   
 
 #index > article{
     height  : 85%;
-    background-color: #FFFFFF;
-    text-align: center;
 }
 
 #index article h2{
-    font-size : 4.5vw;
-    margin : 0%;
     height : 12%;
-    align-content: center;
-    background-color: #2699FB;
 }
 
 #index article img {
     margin-left: 0.5%;
     margin-top: 0.5%;
-    width   : 49%;
+    width   : 47%;
     height  : 37.5%;
     object-fit: fill;
 }
@@ -69,23 +37,12 @@ header{
     margin-top: 0%;
 }
 
-nav a{
-    color: #FFFFFF;
-    text-decoration: none;
-    object-position: center;
-    margin-left: 2%;
-    margin-right: 2%;
-}
 
 nav{
-    background-color: #707070;
     height : 3%;
-    font-size: 2vw;
 }
 
 footer{
-    background-color: #000000;
-    height : 2%;
     font-size:1.5vw;
 }
 
@@ -94,17 +51,12 @@ footer{
     height:15%;
     margin-top: 3%;
     margin-left: 3%;
-    float:left;
-    object-fit: fill;
 }
 
 #product{
     height : 125vw;
-    width : 60%;
-    margin-left: 20%;
-    text-align: center;
-    color: #FFFFFF;
-    background-color: #FFFFFF;
+    width : 100%;
+    margin-left: 0%;
 }
 
 .images{
@@ -113,10 +65,6 @@ footer{
 }
 
 aside {
-    height : 0%;
-    background-color : #2699FB;
-    font-size : 4vw;
-    margin-top : 0.2%;
     display: none;
 }
 
@@ -139,14 +87,10 @@ aside {
     height : 60vw;
     width : 100%;
     margin-left: 0%;
-    text-align: center;
-    color: #FFFFFF;
-    background-color: #F5F5F5;
 }
 
 form{
     height: 75%;
-    font-family: 'Times New Roman', Times, serif;
     font-size: 1.5vw;
 }
 
@@ -169,40 +113,13 @@ fieldset.contactFormFieldset#selector{
 
 #contact nav{
     height : 4%;
-    font-size: 1.2vw;
 }
 
 #moreinfo{
-    font-size : 1.5vw;
-    color:#AAAAAA;
-    text-align: Left;
-    margin-Left:2%;
     display: none;
 }
 
-fieldset{
-    width:80%;
-    margin-left:10%;
-    margin-top:2.5%;
-    height: 20%;
-    background-color: #FFFFFF;
-    color:#AAAAAA;
-    padding:0%;
-    border-width:1px;
-}
-
-fieldset > input{
-    width: 98%;
-    height: 90%;
-    border-width:0px;
-    font-size: 1.6vw;
-}
-
 fieldset > textarea{
-    width:98%;
-    height: 90%;   
-    border-width:0px;
-    font-family: 'Times New Roman', Times, serif;
     font-size: 1.5vw;
 }
 
@@ -224,19 +141,5 @@ fieldset > label{
 }
 
 .submitbutton{
-    height : 10%;
-    background-color : #2699FB;
-    color:#FFFFFF;
     font-size : 1.75vw;
-    width: 80%;
-    margin-top:2.5%;
-}
-
-#contact footer{
-    height:5.1%;
-    font-size: 1.5vw;
-}
-
-#contact header {
-    height:12%;
 }
