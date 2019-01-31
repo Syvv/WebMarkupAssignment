@@ -59,6 +59,7 @@ nav a{
     object-position: center;
     margin-left: 2%;
     margin-right: 2%;
+    display: none;
 }
 
 nav{
@@ -70,20 +71,20 @@ nav{
 footer{
     background-color: #000000;
     height : 1%;
-    font-size: 1.5vw;
+    font-size: 3.5vw;
 }
 
 .images img{
-    width:31%;
-    height:23%;
-    margin-top: 1.7%;
-    margin-left: 1.7%;
+    width:92%;
+    height:7.6%;
+    margin-top: 3.3%;
+    margin-left: 3.3%;
     float:left;
     object-fit: fill;
 }
 
 #product{
-    height : 60vw;
+    height : 300vw;
     width : 60%;
     margin-left: 20%;
     text-align: center;
@@ -92,29 +93,34 @@ footer{
 }
 
 .images{
-    height : 77%;
+    height : 92%;
     margin-bottom: 1%;
 }
 
 aside {
-    height : 8%;
+    height : 2%;
     background-color : #2699FB;
     font-size : 4vw;
     margin-top : 0.2%;
 }
+
+aside#large{
+    display: none;
+}
+
 #product footer{
-    margin-top: 2%;
-    height: 3%;
+    margin-top: 0%;
+    height: 2%;
 }
 
 #product header{
-    height : 10%;
-    font-size: 2vw;
+    height : 3%;
+    font-size: 3vw;
 }
 
 #product nav{
-    height : 3%;
-    font-size: 1.5vw;
+    height : 1%;
+    font-size: 2.5vw;
 }
 
 #contact {

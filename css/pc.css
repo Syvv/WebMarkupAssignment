@@ -102,6 +102,10 @@ aside {
     font-size : 4vw;
     margin-top : 0.2%;
 }
+
+aside#small{
+    display: none;
+}
 #product footer{
     margin-top: 2%;
     height: 3%;
