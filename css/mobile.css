@@ -1,13 +1,18 @@
 html{
     margin:0%;
     padding:0%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    margin:0%;
+
 }
 
 body{
     background-image: url(../img/background.jpeg);
     background-size: fill;
     background-repeat: no-repeat;
-    font-family: 'Times New Roman', Times, serif;
     margin:0%;
 }
 
@@ -26,6 +31,7 @@ header{
     text-align: center;
     vertical-align: middle;
     font-size: 3vw;   
+    margin-top:0%;
 }   
 
 #index > article{
@@ -111,7 +117,7 @@ aside {
 }
 
 #contact {
-    height : 40vw;
+    height : 45vw;
     width : 60%;
     margin-left: 20%;
     text-align: center;
@@ -203,4 +209,8 @@ fieldset > label{
 #contact footer{
     height:5.1%;
     font-size: 1.5vw;
+}
+
+#contact header {
+    height:12%;
 }
