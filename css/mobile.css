@@ -17,9 +17,9 @@ body{
 }
 
 #index{
-    height : 130vw;
-    width : 60%;
-    margin-left: 20%;
+    height : 190vw;
+    width : 100%;
+    margin-left: 0%;
     text-align: center;
     color: #FFFFFF;
 }
@@ -35,22 +35,29 @@ header{
 }   
 
 #index > article{
-    height  : 23%;
-    background-color: #2699FB;
+    height  : 90%;
+    background-color: #FFFFFF;
     text-align: center;
 }
 
 #index article h2{
-    font-size : 4.5vw;
+    display:none;
+}
+
+#index article h2#weAre{
+    font-size : 9vw;
     margin : 0%;
-    height : 30%;
+    height : 10%;
     align-content: center;
+    background-color: #2699FB;
+    display: unset;
 }
 
 #index article img {
-    width   : 100%;
-    height  : 70%;
+    width   : 99%;
+    height  : 21%;
     object-fit: fill;
+    margin: 0.5%;
 }
 
 nav a{
@@ -64,13 +71,13 @@ nav a{
 
 nav{
     background-color: #707070;
-    height : 2%;
+    height : 4%;
     font-size: 2vw;
 }
 
 footer{
     background-color: #000000;
-    height : 1%;
+    height : 2%;
     font-size: 3.5vw;
 }
 
